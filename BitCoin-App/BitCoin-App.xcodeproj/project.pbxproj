@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63606DF31955FD050063870D /* BCBitCoin.m in Sources */ = {isa = PBXBuildFile; fileRef = 63606DF21955FD050063870D /* BCBitCoin.m */; };
 		A4B3E60DF2E2421F8F6882CD /* libPods-BitCoin-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9474348B9F545479AF20716 /* libPods-BitCoin-App.a */; };
 		F49618DF1955EB6600CC975D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49618DE1955EB6600CC975D /* Foundation.framework */; };
 		F49618E11955EB6600CC975D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49618E01955EB6600CC975D /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		4EDEEEEB42A24B71AFF79299 /* Pods-BitCoin-App.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCoin-App.xcconfig"; path = "Pods/Pods-BitCoin-App.xcconfig"; sourceTree = "<group>"; };
+		63606DF11955FD050063870D /* BCBitCoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCBitCoin.h; sourceTree = "<group>"; };
+		63606DF21955FD050063870D /* BCBitCoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCBitCoin.m; sourceTree = "<group>"; };
 		C9474348B9F545479AF20716 /* libPods-BitCoin-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitCoin-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49618DB1955EB6600CC975D /* BitCoin-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitCoin-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49618DE1955EB6600CC975D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 				F49619141955F2DF00CC975D /* NetworkController.m */,
 				F49619161955F56800CC975D /* bitCoinController.h */,
 				F49619171955F56800CC975D /* bitCoinController.m */,
+				63606DF11955FD050063870D /* BCBitCoin.h */,
+				63606DF21955FD050063870D /* BCBitCoin.m */,
 				F49618F61955EB6600CC975D /* Images.xcassets */,
 				F49618E51955EB6600CC975D /* Supporting Files */,
 			);
@@ -304,6 +309,7 @@
 				F49619151955F2DF00CC975D /* NetworkController.m in Sources */,
 				F49618F51955EB6600CC975D /* BCViewController.m in Sources */,
 				F49618EB1955EB6600CC975D /* main.m in Sources */,
+				63606DF31955FD050063870D /* BCBitCoin.m in Sources */,
 				F49619181955F56800CC975D /* bitCoinController.m in Sources */,
 				F49618EF1955EB6600CC975D /* BCAppDelegate.m in Sources */,
 			);

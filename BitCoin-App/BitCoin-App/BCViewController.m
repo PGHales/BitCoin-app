@@ -9,6 +9,7 @@
 #import "BCViewController.h"
 
 @interface BCViewController ()
+@property (strong, nonatomic) IBOutlet UIButton *buyButton;
 
 @end
 
@@ -18,6 +19,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UILabel *currentPrice = [[UILabel alloc]initWithFrame:CGRectMake(100, 80, 400, 100)];
+    currentPrice.text = @"586.75";
+    [self.view addSubview:currentPrice];
+
+    UILabel *currentPriceLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 120, 400, 50)];
+    currentPriceLabel.text = @"Current Price";
+    [self.view addSubview:currentPriceLabel];
+
+    
+}
+
+- (IBAction)buyBitcoin:(id)sender {
+
 }
 
 - (void)didReceiveMemoryWarning

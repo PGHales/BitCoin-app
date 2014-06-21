@@ -21,10 +21,9 @@
     return sharedInstance;
 }
 
-- (void)getBitCoinData:(NSString *)bitCoin completion:(void (^)(BOOL))completion {
+- (void)getBitCoinData:(NSString *)nameString completion:(void (^)(BOOL))completion {
     
     
-    
-}
+    }
 
 @end
