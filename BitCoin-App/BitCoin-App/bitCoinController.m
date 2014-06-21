@@ -8,6 +8,7 @@
 
 #import "bitCoinController.h"
 #import "NetworkController.h"
+#import "BCBitCoin.h"
 
 @implementation bitCoinController
 
@@ -21,11 +22,8 @@
     return sharedInstance;
 }
 
-- (void)getBitCoinData:(NSString *)nameString completion:(void (^)(BOOL))completion {
     
-    
-    
-}
+
 
 
 

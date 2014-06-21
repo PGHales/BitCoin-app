@@ -18,11 +18,8 @@ static NSString * const API_Signature = @"APICoinIO-Signature";
     
     self = [super init];
     if (self) {
-        
-        
-    }
-    
-    
+       dictionary = @{API_key: @"b5cd79d8130e5afccd39b909632e191a38f0b7348d92f475319573b3012a6c06", API_Nonce : @"BitCoin", API_Signature:@"d19286933ac1ba706053823434a5b0dc3e48642f1b053405aec1facba50d5913"};
+    }    
     return self;
 }
 

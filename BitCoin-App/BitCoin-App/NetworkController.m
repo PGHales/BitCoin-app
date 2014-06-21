@@ -7,9 +7,11 @@
 //
 
 #import "NetworkController.h"
+#import "BCBitCoin.h"
 
-static NSString * const API_KEY = @"b5cd79d8130e5afccd39b909632e191a38f0b7348d92f475319573b3012a6c06";
-static NSString * const PRIVATE_KEY = @"d19286933ac1ba706053823434a5b0dc3e48642f1b053405aec1facba50d5913";
+static NSString * const API_key = @"APICoinIO-Key";
+static NSString * const API_Nonce = @"APICoinIO-Nonce";
+static NSString * const API_Signature = @"APICoinIO-Signature";
 
 @implementation NetworkController
 
@@ -25,13 +27,16 @@ static NSString * const PRIVATE_KEY = @"d19286933ac1ba706053823434a5b0dc3e48642f
     return api;
 }
 
-+ (NSDictionary *)parametersWithAPIKey:(NSDictionary *)parameters {
++(void)getCurrentPriceWithParameters:(NSDictionary *)parameters{
     
-    NSMutableDictionary *parametersWithKey = [[NSMutableDictionary alloc] initWithDictionary:parameters];
-    [parametersWithKey setObject:API_KEY forKey:@"api_key"];
+    NSDictionary *dictionary = @{API_key: @"b5cd79d8130e5afccd39b909632e191a38f0b7348d92f475319573b3012a6c06", API_Nonce : @"BitCoin", API_Signature:@"d19286933ac1ba706053823434a5b0dc3e48642f1b053405aec1facba50d5913"};
     
-    return parametersWithKey;
+    [[NetworkController api] GET:@"https://apicoin.io/api/v1/" parameters:dictionary success:^(NSURLSessionDataTask *task, id responseObject) {
+        NSLog(@"%@",responseObject);
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+//        completion(nil);
+    }];
+    
 }
-
 
 @end

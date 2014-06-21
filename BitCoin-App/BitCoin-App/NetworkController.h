@@ -13,6 +13,9 @@
 
 + (AFHTTPSessionManager *)api;
 
-+ (NSDictionary *)parametersWithAPIKey:(NSDictionary *)parameters;
++ (void)getCurrentPriceWithParameters:(NSDictionary *)parameters;
+
+//- (id)initWithDictionary:(NSDictionary *)dictionary;
+
 
 @end

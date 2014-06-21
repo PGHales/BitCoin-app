@@ -7,6 +7,7 @@
 //
 
 #import "BCViewController.h"
+#import "NetworkController.h"
 
 @interface BCViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *buyButton;
@@ -26,6 +27,9 @@
     UILabel *currentPriceLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 120, 400, 50)];
     currentPriceLabel.text = @"Current Price";
     [self.view addSubview:currentPriceLabel];
+    
+    
+    [NetworkController getCurrentPriceWithParameters:nil];
 
     
 }
