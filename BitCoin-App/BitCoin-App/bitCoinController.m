@@ -24,6 +24,9 @@
 - (void)getBitCoinData:(NSString *)nameString completion:(void (^)(BOOL))completion {
     
     
-    }
+    
+}
+
+
 
 @end

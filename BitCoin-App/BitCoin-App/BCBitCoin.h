@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSString *currentPrice;
 @property (nonatomic, strong) NSString *priceDirection;
 
+
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 
 

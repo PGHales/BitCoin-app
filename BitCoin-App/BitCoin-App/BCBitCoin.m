@@ -8,9 +8,21 @@
 
 #import "BCBitCoin.h"
 
+static NSString * const API_key = @"APICoinIO-Key";
+static NSString * const API_Nonce = @"APICoinIO-Nonce";
+static NSString * const API_Signature = @"APICoinIO-Signature";
+
 @implementation BCBitCoin
 
 - (id)initWithDictionary:(NSDictionary *)dictionary{
+    
+    self = [super init];
+    if (self) {
+        
+        
+    }
+    
+    
     return self;
 }
 
