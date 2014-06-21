@@ -1,5 +1,5 @@
 //
-//  NetworkController.h
+//  bitCoinController.h
 //  BitCoin-App
 //
 //  Created by User on 6/21/14.
@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking/AFNetworking.h>
 
-@interface NetworkController : NSObject
+@interface bitCoinController : NSObject
 
-+ (AFHTTPSessionManager *)api;
++ (bitCoinController *)sharedInstance;
+
+
 
 @end

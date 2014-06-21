@@ -23,6 +23,7 @@
 		F49619081955EB6700CC975D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F49619061955EB6700CC975D /* InfoPlist.strings */; };
 		F496190A1955EB6700CC975D /* BitCoin_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49619091955EB6700CC975D /* BitCoin_AppTests.m */; };
 		F49619151955F2DF00CC975D /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49619141955F2DF00CC975D /* NetworkController.m */; };
+		F49619181955F56800CC975D /* bitCoinController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49619171955F56800CC975D /* bitCoinController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F49619091955EB6700CC975D /* BitCoin_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitCoin_AppTests.m; sourceTree = "<group>"; };
 		F49619131955F2DF00CC975D /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
 		F49619141955F2DF00CC975D /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		F49619161955F56800CC975D /* bitCoinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitCoinController.h; sourceTree = "<group>"; };
+		F49619171955F56800CC975D /* bitCoinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bitCoinController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 				F49618F41955EB6600CC975D /* BCViewController.m */,
 				F49619131955F2DF00CC975D /* NetworkController.h */,
 				F49619141955F2DF00CC975D /* NetworkController.m */,
+				F49619161955F56800CC975D /* bitCoinController.h */,
+				F49619171955F56800CC975D /* bitCoinController.m */,
 				F49618F61955EB6600CC975D /* Images.xcassets */,
 				F49618E51955EB6600CC975D /* Supporting Files */,
 			);
@@ -299,6 +304,7 @@
 				F49619151955F2DF00CC975D /* NetworkController.m in Sources */,
 				F49618F51955EB6600CC975D /* BCViewController.m in Sources */,
 				F49618EB1955EB6600CC975D /* main.m in Sources */,
+				F49619181955F56800CC975D /* bitCoinController.m in Sources */,
 				F49618EF1955EB6600CC975D /* BCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
